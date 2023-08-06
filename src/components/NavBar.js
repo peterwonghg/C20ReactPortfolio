@@ -28,7 +28,7 @@ const NavBarStyles = styled.div`
       display: inline-block;
       font-family: 'Arial';
       padding: 1rem 2rem;
-      font-size: 1rem;
+      font-size: 2rem;
       color: #BCB4B4;
       outline: none;
     }
