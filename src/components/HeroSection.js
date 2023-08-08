@@ -68,7 +68,7 @@ export default function HeroSection() {
                         I am a freelance Full Stack Ninja Web Developer with extensive industry experience. 
                         <br></br>
                         <br></br>                        
-                        Let me transform Your Vision into Reality.
+                        Let me transform Your Business Vision into Reality.
                     </PText>
 
                 </div>
