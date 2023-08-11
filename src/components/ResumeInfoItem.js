@@ -11,21 +11,21 @@ const ResumeItemStyles = styled.div`
     color: #BCB4B4;
 
     .title {
-        margin-left: 20rem;
+        margin-left: 10rem;
         font-size: 2.4rem;
         padding-bottom: 10px;
 
     }
         .items {
             display: flex;
-            gap: 1.5rem;
+            gap: 1rem;
             position: absolute;
-            left: 90rem;
+            left: 70rem;
         }
         .item {
             background-color: #262626;
-            padding: 0rem 1.5rem 0rem 1.5rem;
             border-radius: 8px;
+            padding: 0rem 1.5rem 0rem 1.5rem;
         }
 
         @media only screen and (max-width: 768px) {

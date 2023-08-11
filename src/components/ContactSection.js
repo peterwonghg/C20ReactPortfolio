@@ -21,7 +21,7 @@ const ContactSectionStyle = styled.div`
         width: 2px;
         height: 100%;
         background-color: #BCB4B4;
-        left: 50%;
+        left: 43%;
         top: 0%;
         transform: translate (-50%, -50%);
     }

@@ -6,7 +6,7 @@ import styled from 'styled-components';
 const ContactBannerStyles = styled.div`
     padding: 50rem 35rem 50rem 35rem;
     color: #BCB4B4;
-    max-height:500px;
+    max-height:1000px;
 
     .contactBanner__wrapper {
         padding:2px;
