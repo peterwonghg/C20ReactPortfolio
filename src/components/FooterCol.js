@@ -4,11 +4,11 @@ import styled from 'styled-components';
 
 const ColStyles = styled.div`
     .heading {
-        color: white;
+        color: #BCB4B4;
         font-size: 2.5rem;
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
-    li a{color:white}
+    li a{color:#BCB4B4}
     li { 
         margin-bottom: 2rem;
         list-style: none;
@@ -18,7 +18,7 @@ const ColStyles = styled.div`
         color: white;
       }
     a {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 `;
 

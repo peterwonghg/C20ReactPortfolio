@@ -3,10 +3,11 @@ import styled from 'styled-components';
 
 const PStyle = styled.div`
     color: #BCB4B4;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     font-size: 2rem;
     line-height: 2rem;
+    text-align: center;
 `;
 
 

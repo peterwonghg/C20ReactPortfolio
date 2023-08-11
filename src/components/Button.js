@@ -7,12 +7,12 @@ const ButtonStyle = styled.div`
     .button {
         font-size: 3rem;
         font-weight: bold;
-        color: PaleVioletRed;
-        background-color: #262626;
+        color: #BCB4B4;
+        background-color: #383838;
         padding: 0.5em 1em;
         border-radius: 8px;
         display: inline-block;
-        border: 2px solid #383838;
+        border: 2px solid #BCB4B4;
     }
 `;
 

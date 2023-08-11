@@ -2,6 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const SectionTitleStyle = styled.div`
+    color: #BCB4B4;
     text-align: center;
     p{
         font-family: 'Arial';

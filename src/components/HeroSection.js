@@ -7,7 +7,7 @@ import styled from 'styled-components';
 const HeroStyles = styled.div`
     .hero {
         height: 80vh;
-        min-height: 1000px;
+        min-height: 1500px;
         width: 100%;
         text-align: center;
         display: flex;
@@ -37,7 +37,6 @@ const HeroStyles = styled.div`
         width: 100%;
         height: 600px;
         margin: 0 auto;
-        border: 2px solid WhiteSmoke;
         }        
     }
     .hero__info {
@@ -52,9 +51,9 @@ export default function HeroSection() {
         <div className="hero">
             <div className="container">
                 <h1 className="hero__heading">
-                    <span>G'day - Konnichiwa ...... Introducing:</span>
+                    <span>G'day – こんにちは ...... Introducing:</span>
                     <br></br>
-                    <span className="hero__name">PETER WONG</span>
+                    <span className="hero__name">Peter Wong</span>
                 </h1>
                 <div className="hero__img">
                     <img src={HeroImg} alt="Hero" />

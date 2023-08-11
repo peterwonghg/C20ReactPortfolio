@@ -109,7 +109,7 @@ export default function NavBar() {
                    isPending ? "pending" : isActive ? "active" : ""
                  }
                 >
-                  Home
+                  About Me
                 </NavLink>
                 </li>
 
@@ -142,7 +142,7 @@ export default function NavBar() {
                    isPending ? "pending" : isActive ? "active" : ""
                  }
                 >
-                  Resume
+                  Résumé
                 </NavLink>
                 </li>                
 
