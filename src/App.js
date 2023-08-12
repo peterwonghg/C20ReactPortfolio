@@ -15,7 +15,7 @@ export default function App(){
       <Router>        
         <NavBar />
           <Routes>
-            <Route path="/c20reactportfolio" element={<Home />} />            
+            <Route path="/" element={<Home />} />            
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/resume" element={<Resume />} />                    
