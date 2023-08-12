@@ -11,7 +11,7 @@ const ResumeItemStyles = styled.div`
     color: #BCB4B4;
 
     .title {
-        margin-left: 10rem;
+        margin-left: 25rem;
         font-size: 2.4rem;
         padding-bottom: 10px;
 
@@ -20,7 +20,7 @@ const ResumeItemStyles = styled.div`
             display: flex;
             gap: 1rem;
             position: absolute;
-            left: 70rem;
+            left: 90rem;
         }
         .item {
             background-color: #262626;
