@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ee1d49b8.css",
+    "main.js": "/static/js/main.1c486228.js",
+    "static/js/787.41c2f60d.chunk.js": "/static/js/787.41c2f60d.chunk.js",
+    "static/media/take5.png": "/static/media/take5.0965a853c216d12b613e.png",
+    "static/media/kidsHub.png": "/static/media/kidsHub.cb954e1190a1baed3554.png",
+    "static/media/weatherDashboard.png": "/static/media/weatherDashboard.5281cf4be5a23fd49bc3.png",
+    "static/media/hero1.png": "/static/media/hero1.f55e6b2a630651f91dba.png",
+    "static/media/employeeTracker.png": "/static/media/employeeTracker.c8c074f4c966043bfed1.png",
+    "static/media/noteTaker.png": "/static/media/noteTaker.8a72376ff50a78beffc2.png",
+    "static/media/hero.png": "/static/media/hero.aabeb42200458524bae7.png",
+    "static/media/eCommerce.png": "/static/media/eCommerce.53911bffb4a1b8c2c10c.png",
+    "static/media/project.png": "/static/media/project.d2bf4a0588c9885842be.png",
+    "static/media/quiz.png": "/static/media/quiz.5e144e4b62cb18c0426e.png",
+    "static/media/textEditor.png": "/static/media/textEditor.efe380e7a40e4fc12b4f.png",
+    "index.html": "/index.html",
+    "main.ee1d49b8.css.map": "/static/css/main.ee1d49b8.css.map",
+    "main.1c486228.js.map": "/static/js/main.1c486228.js.map",
+    "787.41c2f60d.chunk.js.map": "/static/js/787.41c2f60d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee1d49b8.css",
+    "static/js/main.1c486228.js"
+  ]
+}
