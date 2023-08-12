@@ -7,15 +7,18 @@ import NoteTakerImg from '../images/noteTaker.png';
 import QuizImg from '../images/quiz.png';
 import Take5Img from '../images/take5.png';
 import WeatherDashboardImg from '../images/weatherDashboard.png';
+// import CustomLink from '../components/CustomLink';
 
 const portfolio = [
   {
     id: uuidv4(),
+    // name: <CustomLink to="https://github.com/peterwonghg">E-Commerce</CustomLink>,
+    // name: <a href="https://google.com">E-Commerce</a>,
     name: 'E-Commerce',
     desc:
-      'An e-Commerce website to market and trade products and services to small businesses.',
+      'An e-Commerce website to market and trade products and services for small businesses.',
     img: ECommerceImg,
-    path: 'https://github.com/peterwonghg',
+    path: 'https://google.com',
   },
   {
     id: uuidv4(),
@@ -29,7 +32,7 @@ const portfolio = [
     id: uuidv4(),
     name: 'Kids Hub',
     desc:
-      'An app for children learning in both academic and life skills.',
+      'An app for children learning both academic and practical life skills.',
     img: KidsHubImg,
     path: 'https://github.com/peterwonghg',
   },
@@ -45,7 +48,7 @@ const portfolio = [
     id: uuidv4(),
     name: 'Employee Tracker',
     desc:
-      'An application to track your all your employees data from one place.',
+      'An application to track all your employees data from one place.',
     img: EmployeeTrackerImg,
     path: 'https://github.com/peterwonghg',
   },
@@ -61,7 +64,7 @@ const portfolio = [
     id: uuidv4(),
     name: 'Take-5',
     desc:
-      'A safety app to document the process of conducting a risk analysis of task based activity.',
+      'A safety app to document the process of conducting risk analysis of task based activity.',
     img: Take5Img,
     path: 'https://github.com/peterwonghg',
   },

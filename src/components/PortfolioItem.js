@@ -43,6 +43,7 @@ export default function PortfolioItem({
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum sjhf fkikfgkjkf ckjkjmf klcjkdjd ckjhckj cdkjkjd hjduujdn dkjdjn dkudkjnd hjjjkd.',
+//   path = 'https://google.com'
 }) {
   return (
     <PortfolioItemStyles>
@@ -54,6 +55,9 @@ export default function PortfolioItem({
           <h3 className="portfolioItem__title">{title}</h3>
         </Link>
         <p className="portfolioItem__desc">{desc}</p>
+        {/* <Link to="#">
+        <a href={path} className="portfolioItem__desc">{desc}</a>   
+        </Link>              */}
       </div>
     </PortfolioItemStyles>
   );

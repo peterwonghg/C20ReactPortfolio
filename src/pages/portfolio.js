@@ -6,6 +6,7 @@ import PortfolioInfo from '../assets/data/portfolio';
 import Footer from '../components/Footer';
 
 
+
 const PortfolioStyles = styled.div`
   padding: 10rem 0;
   background: #383838;
@@ -23,6 +24,7 @@ export default function Portfolio() {
   const [portfolioData] = useState(PortfolioInfo);
 
   return (
+  
   <PortfolioStyles>
       <div className='container'>
           <SectionTitle heading="Portfolio"
@@ -35,8 +37,10 @@ export default function Portfolio() {
                 title={item.name}
                 desc={item.desc}
                 img={item.img}
+                // link={item.path}
               />
             ))}
+
           </div>
           <br></br>
           <br></br>
