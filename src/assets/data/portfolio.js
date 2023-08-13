@@ -7,6 +7,7 @@ import NoteTakerImg from '../images/noteTaker.png';
 import QuizImg from '../images/quiz.png';
 import Take5Img from '../images/take5.png';
 import WeatherDashboardImg from '../images/weatherDashboard.png';
+import WebSiteImg from '../images/website.png';
 
 const portfolio = [
   {
@@ -49,7 +50,7 @@ const portfolio = [
     id: uuidv4(),
     name: 'Password Generator',
     desc:
-      'An application to randomly generate password .',
+      'An application to randomly generate computing password.',
     img: PasswordGeneratorImg,
     path: 'https://peterwonghg.github.io/Challenge03/',
     github: 'https://github.com/peterwonghg/Challenge03',
@@ -67,7 +68,7 @@ const portfolio = [
     id: uuidv4(),
     name: 'Take-5',
     desc:
-      'A safety app to document the process of conducting risk analysis of task based activity.',
+      'A safety app to document the process of conducting risk analysis of work tasks.',
     img: Take5Img,
     path: 'https://peterwonghg.github.io/Project01/',
     github: ' https://github.com/peterwonghg/Project01',
@@ -80,7 +81,16 @@ const portfolio = [
     img: WeatherDashboardImg,
     path: 'https://peterwonghg.github.io/C06weatherDash/',
     github: 'https://github.com/peterwonghg/C06weatherDash',    
-  },      
+  },
+  {
+    id: uuidv4(),
+    name: 'Website Development',
+    desc:
+      'An demonstration of a website development with small businesses.',
+    img: WebSiteImg,
+    path: 'https://peterwonghg.github.io/Challenge01/',
+    github: 'https://github.com/peterwonghg/Challenge01',    
+  },         
 ];
 
 export default portfolio;

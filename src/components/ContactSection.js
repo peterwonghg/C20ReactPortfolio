@@ -6,7 +6,7 @@ import SectionTitle from './SectionTitle';
 import ContactForm from './ContactForm';
 
 const ContactSectionStyle = styled.div`
-    padding: 10rem 28rem 10rem 25rem;
+    padding: 10rem 20rem 10rem 20rem;
     background: #383838;
     .contactSection__wrapper {
         display: flex;
@@ -21,7 +21,7 @@ const ContactSectionStyle = styled.div`
         width: 2px;
         height: 100%;
         background-color: #BCB4B4;
-        left: 43%;
+        left: 50%;
         top: 0%;
         transform: translate (-50%, -50%);
     }

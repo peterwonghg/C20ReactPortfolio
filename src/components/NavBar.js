@@ -48,7 +48,7 @@ const NavBarStyles = styled.div`
   }
   @media only screen and (max-width: 768px) {
     .hide-item {
-      display: none;
+      transform: translateY(calc(-100% - var(--top)));
     }
     .mobile-menu-icon {
       display: block;

@@ -8,7 +8,7 @@ import Footer from '../components/Footer';
 
 
 const PortfolioStyles = styled.div`
-  padding: 10rem 0;
+  padding: 10rem 3rem 3rem 3rem;
   background: #383838;
   .portfolio__allitems {
     display: grid;
@@ -17,6 +17,7 @@ const PortfolioStyles = styled.div`
     margin-top: 5rem;
     color: #BCB4B4;
   }
+  
 `;
 
 export default function Portfolio() {
@@ -39,7 +40,6 @@ export default function Portfolio() {
                 img={item.img}
                 path={item.path}
                 github={item.github}
-                // link={item.path}
               />
             ))}
 

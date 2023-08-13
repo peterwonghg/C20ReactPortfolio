@@ -2,38 +2,35 @@ import React from 'react';
 import styled from 'styled-components';
 import FooterCol from './FooterCol';
 
+
 const FooterStyles = styled.div`
-    padding-left: 120px;    
-    padding-top: 1rem;
+   
+    padding: 0rem 5rem 0rem 5rem;
     background-color: #262626;
     .container{
         display: flex; 
         gap: 3rem;
-        
     }
     .footer__col1 {
         display: flex;
         flex: 2;
-        gap: 1rem;
-        text-align: left;
+
     }
     .footer__col2,
     .footer__col3,
     .footer__col4 {
         flex: 1;
         text-align: right;
-        padding-right:150px     
+        padding-right: 5rem;     
     }    
     .footer__col1__title {
-        font-size: 3rem;
+        font-size: 2.5rem;
         color: White;
         margin-bottom: 1rem;
-        width:200px;
+
     }
-    .footer__description {
-        padding: 1rem 0 0 0;
-        color: #BCB4B4;
-    }
+
+
 `;
 
 export default function Footer() {
@@ -42,14 +39,7 @@ export default function Footer() {
         <div className="container">
             <div className="footer__col1">
                 <h1 className="footer__col1__title">Peter Wong</h1>
-                <br></br>
-                <h2 className="footer__description">
-                    <em>A full stack web developer based in PERTH, AUSTRALIA. <br></br>
-                    I enjoy collaborating with stakeholders on solving<br></br>
-                    multi-faceted business projects and utilising my skill sets<br></br>
-                    to implement innovative and effective solutions in overcoming<br></br>
-                    organisational challenges.</em>
-                </h2>
+
                 <div className="footer__col2">
                     <FooterCol 
                         heading="Links" 

@@ -4,12 +4,12 @@ import Button from './Button';
 import styled from 'styled-components';
 
 const ContactBannerStyles = styled.div`
-    padding: 50rem 35rem 50rem 35rem;
+    padding: 10rem 25rem 5rem 25rem;
     color: #BCB4B4;
     max-height:1000px;
 
     .contactBanner__wrapper {
-        padding:2px;
+        padding:2px 0px 2px 0px;;
         background-color: #262626;
         border-radius: 12px;
         text-align: center;

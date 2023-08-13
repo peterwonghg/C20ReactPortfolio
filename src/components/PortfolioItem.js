@@ -7,13 +7,14 @@ const PortfolioItemStyles = styled.div`
 
   .portfolioItem__img {
     width: 100%;
-    height: 400px;
+    height: 350px;
     border-radius: 12px;
     overflow: hidden;
     display: inline-block;
     border: 3px solid #BCB4B4;
     img {
-      height: 100%;
+        // object-fit: cover;
+        width: 100%;
     }
   }
   .portfolioItem__info {
@@ -32,7 +33,10 @@ const PortfolioItemStyles = styled.div`
     font-family: 'Arial';
     margin-top: 1rem;
     color: #BCB4B4;
-
+  }
+  .portfolioItem__github {
+    font-size: 1.2rem;
+    color: #BCB4B4;
   }
   @media only screen and (max-width: 768px) {
     .portfolioItem__img {
@@ -58,7 +62,7 @@ export default function PortfolioItem({
             {title} 
         </Link>
         <p className="portfolioItem__desc">{desc}</p>
-        <a href={github} className="portfolioItem__desc" target="_blank" rel="noopener noreferrer">{github}</a>     
+        <a href={github} className="portfolioItem__github" target="_blank" rel="noopener noreferrer">{github}</a>     
       </div>
     </PortfolioItemStyles>
   );

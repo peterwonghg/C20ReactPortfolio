@@ -11,7 +11,7 @@ const ColStyles = styled.div`
     li a{color:#BCB4B4}
     li { 
         margin-bottom: 2rem;
-        list-style: none;
+        // list-style: none;
     }
 
     .active{
