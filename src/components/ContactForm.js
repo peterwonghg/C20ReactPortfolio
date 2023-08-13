@@ -41,9 +41,64 @@ const FormStyles = styled.form`
 
 export default function ContactForm() {
 
-    const [name, setName] = useState('');
-    const [email, setEmail] = useState('');
-    const [message, setMessage] = useState('');
+    const [name, setName] = useState("");
+    const [email, setEmail] = useState("");
+    const [message, setMessage] = useState("");
+    const [errorMessage, setErrorMessage] = useState("");
+
+    const validateName = (e) => {
+
+        const { name, value } = e.target;
+        setName(value);
+        if (name === "name") {
+          if (value === "") {
+            setName("");
+            setErrorMessage(`Please enter a name. This field is required.`);
+          }
+        }
+        if (value.length > 0) {
+          setErrorMessage(``);
+        }
+      };
+    
+      // Validates email
+      const validateEmail = (e) => {
+        e.preventDefault();
+
+        const { name, value } = e.target;
+        setEmail(value);
+        if (name === "email") {
+          if (value === "") {
+            setEmail("");
+            setErrorMessage(
+              `This field is required. Please enter an email address. `
+            );
+          }
+          const pattern = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/;
+
+          if (!pattern.test(value)) {
+            setErrorMessage(`Please enter a valid email`);
+          } else {
+            setErrorMessage("");
+          }
+        }
+      };
+    
+      // Validates message
+      const validateMessage = (e) => {
+
+        const { name, value } = e.target;
+        setMessage(value);
+        if (name === "message") {
+          if (value === "") {
+            setMessage("");
+            setErrorMessage(`This field is required. Please enter a message. `);
+          }
+        }
+        if (value.length > 0) {
+          setErrorMessage(``);
+        }
+      };
 
   return (
     <div>
@@ -52,6 +107,8 @@ export default function ContactForm() {
                 <label htmlFor="name">
                     Your name
                     <input
+
+                        onBlur= {validateName}
                         type="text"
                         id="name"
                         name="name"
@@ -65,11 +122,14 @@ export default function ContactForm() {
                 <label htmlFor="email">
                     Your email
                     <input
-                        type="text"
+
+                        onBlur= {validateEmail}
+                        type="email"
                         id="email"
-                        email="email"
+                        name="email"
                         value={email}
                         onChange={(e) => setEmail(e.target.value)}
+
                     />
                 </label>
             </div>
@@ -78,16 +138,30 @@ export default function ContactForm() {
                 <label htmlFor="message">
                     Your message
                     <textarea
+
+                        onBlur= {validateMessage}
                         type="text"
                         id="message"
-                        message="message"
+                        name="message"
                         value={message}
                         onChange={(e) => setMessage(e.target.value)}
                     />
                 </label>
-            </div>     
+            </div> 
+                
+            {errorMessage && (
+                <div>
+                    <p>{errorMessage}</p>
+
+                </div>
+            )}    
             <button type="submit">Submit</button>
+
+
+
         </FormStyles>
+
     </div>
+
   );
 }
