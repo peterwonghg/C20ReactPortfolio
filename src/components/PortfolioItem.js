@@ -31,6 +31,8 @@ const PortfolioItemStyles = styled.div`
     font-size: 1.6rem;
     font-family: 'Arial';
     margin-top: 1rem;
+    color: #BCB4B4;
+
   }
   @media only screen and (max-width: 768px) {
     .portfolioItem__img {
@@ -43,21 +45,20 @@ export default function PortfolioItem({
   img = ProjectImg,
   title = 'Project Name',
   desc = 'Lorem Ipsum sjhf fkikfgkjkf ckjkjmf klcjkdjd ckjhckj cdkjkjd hjduujdn dkjdjn dkudkjnd hjjjkd.',
-//   path = 'https://google.com'
+  path = 'https://google.com',
+  github = 'https://github.com/peterwonghg'
 }) {
   return (
     <PortfolioItemStyles>
-      <Link to="/portfolio" className="portfolioItem__img">
+      <Link to={path} target="_blank" rel="noopener noreferrer" className="portfolioItem__img">
         <img src={img} alt="project img" />
       </Link>
-      <div className="portfolioItem__info">
-        <Link to="#">
-          <h3 className="portfolioItem__title">{title}</h3>
+      <div className="portfolioItem__info"> 
+        <Link to={path} target="_blank" rel="noopener noreferrer" className="portfolioItem__title">
+            {title} 
         </Link>
         <p className="portfolioItem__desc">{desc}</p>
-        {/* <Link to="#">
-        <a href={path} className="portfolioItem__desc">{desc}</a>   
-        </Link>              */}
+        <a href={github} className="portfolioItem__desc" target="_blank" rel="noopener noreferrer">{github}</a>     
       </div>
     </PortfolioItemStyles>
   );

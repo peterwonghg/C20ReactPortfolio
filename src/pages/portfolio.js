@@ -37,6 +37,8 @@ export default function Portfolio() {
                 title={item.name}
                 desc={item.desc}
                 img={item.img}
+                path={item.path}
+                github={item.github}
                 // link={item.path}
               />
             ))}
