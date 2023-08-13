@@ -12,7 +12,7 @@ export default function App(){
   return (   
     <>
 
-      <Router>        
+      <Router basename="/c20reactportfolio">        
         <NavBar />
           <Routes>
             <Route path="/" element={<Home />} />            
