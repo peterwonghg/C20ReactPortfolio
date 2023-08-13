@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/c20reactportfolio/static/css/main.ee1d49b8.css",
-    "main.js": "/c20reactportfolio/static/js/main.1e02beea.js",
+    "main.js": "/c20reactportfolio/static/js/main.caf616fb.js",
     "static/js/787.41c2f60d.chunk.js": "/c20reactportfolio/static/js/787.41c2f60d.chunk.js",
     "static/media/take5.png": "/c20reactportfolio/static/media/take5.0965a853c216d12b613e.png",
     "static/media/kidsHub.png": "/c20reactportfolio/static/media/kidsHub.cb954e1190a1baed3554.png",
@@ -16,11 +16,11 @@
     "static/media/website.png": "/c20reactportfolio/static/media/website.28b55a495c4f849caa45.png",
     "index.html": "/c20reactportfolio/index.html",
     "main.ee1d49b8.css.map": "/c20reactportfolio/static/css/main.ee1d49b8.css.map",
-    "main.1e02beea.js.map": "/c20reactportfolio/static/js/main.1e02beea.js.map",
+    "main.caf616fb.js.map": "/c20reactportfolio/static/js/main.caf616fb.js.map",
     "787.41c2f60d.chunk.js.map": "/c20reactportfolio/static/js/787.41c2f60d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ee1d49b8.css",
-    "static/js/main.1e02beea.js"
+    "static/js/main.caf616fb.js"
   ]
 }
