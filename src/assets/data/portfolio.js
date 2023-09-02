@@ -84,12 +84,12 @@ const portfolio = [
   },
   {
     id: uuidv4(),
-    name: 'Website Development',
+    name: 'Scurvee.com',
     desc:
-      'An demonstration of a website development with small businesses.',
+      'A time tracker app that enables planned and actual task be recorded',
     img: WebSiteImg,
-    path: 'https://peterwonghg.github.io/Challenge01/',
-    github: 'https://github.com/peterwonghg/Challenge01',    
+    path: 'https://scurvee-com-66ca99bee111.herokuapp.com/projects',
+    github: 'https://github.com/PaichienFeng/scurvee_com',    
   },         
 ];
 
